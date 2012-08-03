@@ -24,7 +24,7 @@ from pyspades.contained import BlockAction, SetColor
 from pyspades.constants import *
 from commands import add, admin
 from itertools import product
-from cbc import cbc
+import cbc
 
 from PIL import Image, ImageFont, ImageDraw
 
